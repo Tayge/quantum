@@ -24,4 +24,4 @@ Already trained models can be downloaded from here: </br>
 <b>preprocessing.py</b> - predict mask, after launch, script will offer to choose a model. </br>
 <b>Model creation and analysis.ipynb</b> - Jupiter nootebook with main logic ptoject. </br>
 <b>stage_1.zip</b> - Image data </br>
-
+<b>requirements.txt</b> - Requirements
