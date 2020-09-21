@@ -23,7 +23,7 @@ Already trained models can be downloaded from here: </br>
 <b>model_unet_resnet</b> -  Unet + Resnet </br>
 <b>preprocessing.py</b> - predict mask, after launch, script will offer to choose a model. </br>
 <b>Model creation and analysis.ipynb</b> - Jupiter nootebook with main logic ptoject. </br>
-<b>stage_1.zip</b> - Image data. <em>The dataset is taken from here:</em> https://www.kaggle.com/c/data-science-bowl-2018</br>
+<b>stage_1.zip</b> - Image data. <em>The dataset was taken from here:</em> https://www.kaggle.com/c/data-science-bowl-2018</br>
 <b>requirements.txt</b> - Requirements</br>
 </br>
 Created by Hennadii Horenskyi. horenskyih@outlook.com
