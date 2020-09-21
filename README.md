@@ -17,7 +17,7 @@ Sample prediction on value dataset: </br>
 <h1>Files in the repository</h1>
 <b>train.py</b> - script for training all model, after launch, script will offer to choose a model. The resulting execution will create a model file. 
 Already trained models can be downloaded from here: </br>
-  <em>model_classic_unet.h5</em> - https://www.dropbox.com/s/w4o6pwme9dkg0tf/model_classic_unet.h5 </br>
+  <em>model_classic_unet.h5</em> - Github or https://www.dropbox.com/s/w4o6pwme9dkg0tf/model_classic_unet.h5 </br>
   <em>model_unet_resnet.h5</em> - https://www.dropbox.com/s/ohf3oqsf689fhb1/model_unet_resnet.h5 </br>
 <b>model_classic_unet</b> - Classic Unet </br>
 <b>model_unet_resnet</b> -  Unet + Resnet </br>
