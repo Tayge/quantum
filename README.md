@@ -16,11 +16,7 @@ Sample prediction on value dataset: </br>
 
 <h1>Files in the repository</h1>
 <b>train.py</b> - script for training all model, after launch, script will offer to choose a model. The resulting execution will create a model file. 
-Already trained models can be downloaded from here: </br>
-  <em>model_classic_unet.h5</em> - Github or https://www.dropbox.com/s/w4o6pwme9dkg0tf/model_classic_unet.h5 </br>
-  <em>model_unet_resnet.h5</em> - https://www.dropbox.com/s/ohf3oqsf689fhb1/model_unet_resnet.h5 </br>
-<b>model_classic_unet</b> - Classic Unet </br>
-<b>model_unet_resnet</b> -  Unet + Resnet </br>
+<b>model_classic_unet.h5</b> - Already trained model Classic Unet</br>
 <b>preprocessing.py</b> - predict mask, after launch, script will offer to choose a model. </br>
 <b>Model creation and analysis.ipynb</b> - Jupiter nootebook with main logic ptoject. </br>
 <b>stage_1.zip</b> - Image data. <em>The dataset was taken from here:</em> https://www.kaggle.com/c/data-science-bowl-2018</br>
