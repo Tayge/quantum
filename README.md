@@ -13,7 +13,7 @@ Sample prediction on value dataset: </br>
 <img src="https://raw.githubusercontent.com/Tayge/quantum/master/image/sample_pred_classic_unet.png" alt="unet">
 
 <h2>U-Nets with ResNet Encoders</h2>
-ResNet is a CNN architecture, made up of series of residual blocks (ResBlocks)  with skip connection. Now by replacing convolutions in U-Net on each level with ResBlock, we can get better performance than the original UNet almost every time. Below is the detailed model architecture diagram. Sourсe: <a href="https://medium.com/@nishanksingla/unet-with-resblock-for-semantic-segmentation-dd1766b4ff66"> UNet with ResBlock for Semantic Segmentation</br>
+ResNet is a CNN architecture, made up of series of residual blocks (ResBlocks)  with skip connection. Now by replacing convolutions in U-Net on each level with ResBlock, we can get better performance than the original UNet almost every time. Below is the detailed model architecture diagram. Sourсe:<a href="https://medium.com/@nishanksingla/unet-with-resblock-for-semantic-segmentation-dd1766b4ff66"> UNet with ResBlock for Semantic Segmentation </a></br>
 <img src="https://miro.medium.com/max/3544/1*eKrh8FqJL3jodebYlielNg.png" alt="str_resnet+unet">
 
 After training the Unet with ResNet Encoders, the following results were obtained: </br>
