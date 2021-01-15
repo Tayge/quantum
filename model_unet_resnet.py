@@ -6,6 +6,7 @@ from keras.layers.convolutional import Conv2D, Conv2DTranspose
 from keras.layers.merge import concatenate
 from keras.applications.resnet50 import ResNet50
 
+
 class unet_resnet():
     
     def __init__(self):
