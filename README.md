@@ -10,7 +10,7 @@ The network consists of a contracting path and an expansive path, which gives it
 After training the Unet, the following results were obtained: </br>
 This model gave score: val_loss: 0.0641 - val_dice_coef: 0.8973 </br>
 Sample prediction on value dataset: </br>
-<img src="https://raw.githubusercontent.com/Tayge/quantum/master/image/sample_pred_classic_unet.png" alt="unet">
+<img src="https://github.com/Tayge/semantic_segmentation/blob/master/image/Pred_Unet.jpg" alt="unet">
 
 <h2>U-Nets with ResNet Encoders</h2>
 ResNet is a CNN architecture, made up of series of residual blocks (ResBlocks)  with skip connection. Now by replacing convolutions in U-Net on each level with ResBlock, we can get better performance than the original UNet almost every time. Below is the detailed model architecture diagram. Sourсe:<a href="https://medium.com/@nishanksingla/unet-with-resblock-for-semantic-segmentation-dd1766b4ff66"> UNet with ResBlock for Semantic Segmentation </a></br>
@@ -19,7 +19,7 @@ ResNet is a CNN architecture, made up of series of residual blocks (ResBlocks)  
 After training the Unet with ResNet Encoders, the following results were obtained: </br>
 This model gave score val_loss: 0.0594 - val_dice_coef: 0.9349 </br>
 Sample prediction on value dataset: </br>
-<img src="https://raw.githubusercontent.com/Tayge/quantum/master/image/sample_pred_resnet_unet.png" alt="resnet+unet">
+<img src="https://github.com/Tayge/semantic_segmentation/blob/master/image/Pred_Unet_Resnet.jpg" alt="resnet+unet">
 
 <h1>Files in the repository</h1>
 <b>train.py</b> - script for training all model, after launch, script will offer to choose a model. The resulting execution will create a model file. </br>
