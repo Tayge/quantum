@@ -1,5 +1,6 @@
 <h1>The purpose of this project</h1>
-Create a computer model that identifies a range of cores under different conditions.
+Create a computer model that identifies a range of cores under different conditions.</br>
+Demonstration - http://ec2-3-140-210-70.us-east-2.compute.amazonaws.com
 
 <h1>Models that were used</h1>
 <h2>Classic Unet</h2>
